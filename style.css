@@ -316,12 +316,12 @@ span{
 }
 
 .portfolio-box:hover .portfolio-layer{
-
     transform: translateY(0);
 }
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    line-height: 1.5;
 }
 
 .portfolio-layer p{
@@ -419,6 +419,11 @@ span{
     font-size: 1.8rem;
     color: var(--second-bg-color);
 }
+
+.footer-link a {
+    color: beige;
+}
+
 
 
 
@@ -538,10 +543,17 @@ section {
         width: 70vw;
         margin-top: 4rem;
     }
+    .home-content p {
+        color: rgba(241, 163, 163, 0.2)
+    }
 
     .about img {
         width: 70vw;
         margin-top: 4rem;
+    }
+
+    .about-content p {
+        color: rgba(245, 236, 179, 0.421)
     }
 
     .services h2 {
@@ -551,6 +563,9 @@ section {
     .portfolio h2 {
         margin-bottom: 3rem;
 
+    }
+    .portfolio p {
+        padding: 2rem;
     }
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);

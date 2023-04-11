@@ -43,7 +43,7 @@
                 <a href="#"><i class='bx bxl-instagram' onclick="openInstaPage();"></i></a>
                 <a href="#"><i class='bx bxl-linkedin-square' onclick="openLinkedInPage();"></i></a>
             </div>
-            <a href="#" class="btn" onclick="downloadResume();">Download CV</a>
+            <a href="#" class="btn" onclick="downloadResume();">View CV</a>
         </div>
 
         <div class="home-img">
@@ -63,7 +63,8 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Frontend Developer</h3>
-            <p>blah blah blah</p>
+            <p>I am a recent graduate from the University of Western Ontario, where I earned my degree in Computer Science. My academic journey has instilled in me a passion for problem-solving, innovation, and a dedication to creating impactful software solutions.<br>
+                <br> Through my coursework and collaborative projects, I have honed my skills in various programming languages and technologies, equipping me with the expertise to tackle a wide range of challenges.</br><br>As a driven and enthusiastic individual, I am constantly seeking opportunities to grow and evolve as a software developer. I am eager to contribute my knowledge and skills to a team that values collaboration, creativity, and a commitment to excellence.</br> <br>My experience at the University of Western Ontario has not only prepared me for the professional world, but it has also inspired me to make a meaningful difference in the ever-evolving landscape of technology.</br> </p>
             <a href="#" class="btn">Read More</a>
         </div>
     </section>
@@ -118,20 +119,19 @@
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="images/logo.jpg" alt="">
+                <img id="imageToChange" src="images/memgame.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Blah Blah Blah</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <h4>Web Game</h4>
+                    <p>Memory Match Game</p>
+                    <a href="#"><i class='bx bx-link-external' onclick="opengame();"></i></a>
                 </div>
-            </div>
+            </div>            
 
             <div class="portfolio-box">
-                <img src="images/logo.jpg" alt="">
+                <img src="images/logo.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Blah Blah Blah</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <h4>Bus Trip Booking Site</h4>
+                    <a href="#"><i class='bx bx-link-external' onclick="githubURL();" ></i></a>
                 </div>
             </div>
 
@@ -167,8 +167,13 @@
              <!--Footer Design-->
       <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 by Hadi Miri | All Rights Reserved.</p>
+            <p>Copyright &copy; 2023 by Hadi Miri | All Rights Reserved. </p>
         </div>
+
+        <div class="footer-link">
+            <a href="https://github.com/hmiri2/Projects" target="_blank" rel="noopener noreferrer">View My Projects on GitHub</a>
+        </div>
+        
 
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>

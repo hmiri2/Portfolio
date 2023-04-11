@@ -94,3 +94,27 @@ function openLinkedInPage() {
     window.open(linkedinPageUrl, '_blank');
 }
 
+function opengame() {
+    const memgamePageUrl = 'https://codepen.io/hmiri2/pen/oNagoKm';
+    window.open(memgamePageUrl, '_blank');
+}
+
+function githubURL() {
+    const githubUrl = 'https://github.com/hmiri2/Projects';
+    window.open(githubUrl, '_blank');
+}
+
+const imageToChange = document.getElementById('imageToChange');
+const originalImageSrc = 'images/memgame.png';
+const hoverImageSrc = 'images/demo.gif'; 
+
+function handleHover(event) {
+    if (event.type === 'mouseenter') {
+        event.target.src = hoverImageSrc;
+    } else if (event.type === 'mouseleave') {
+        event.target.src = originalImageSrc;
+    }
+}
+
+imageToChange.addEventListener('mouseenter', handleHover);
+imageToChange.addEventListener('mouseleave', handleHover);
