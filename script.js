@@ -70,12 +70,12 @@ const typed = new Typed('.multiple-text', {
 /*****download resume****/
 function downloadResume() {
     const link = document.createElement('a');
+    link.target = '_blank';
     link.href = 'images/MiriHadi.pdf';
-    link.download = 'MiriHadi.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  }
+}
 
 
 /**open facebook link* */
