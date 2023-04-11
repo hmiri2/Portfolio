@@ -70,7 +70,7 @@ const typed = new Typed('.multiple-text', {
 /*****download resume****/
 function downloadResume() {
     const link = document.createElement('a');
-    link.href = 'images/MiriHadi.pdf';
+    link.href = 'hadimiri/images/MiriHadi.pdf';
     link.download = 'MiriHadi.pdf';
     document.body.appendChild(link);
     link.click();
