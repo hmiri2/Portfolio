@@ -71,7 +71,7 @@ const typed = new Typed('.multiple-text', {
 function downloadResume() {
     const link = document.createElement('a');
     link.target = '_blank';
-    link.href = 'images/MiriHadi.pdf';
+    link.href = 'images/HadiMiri.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
